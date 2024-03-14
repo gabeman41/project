@@ -1,0 +1,71 @@
+header {
+    background-color: #07074f;
+    padding: 3px;
+
+}
+
+.main_header{
+    color: white;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.main_logo {
+    display: inline-block;
+}
+
+.main_link {
+    text-align: right;
+    display: inline-block;
+    right: 0%;
+    position: absolute;
+   
+}
+
+.main_link a {
+    color: white;
+    text-decoration: none;
+}
+
+.main_link a:hover {
+    text-decoration: overline;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main_logo h1:hover{
+    text-decoration: overline;
+}
+
+.image_logo {
+    position: relative;
+    width: 100%;
+}
+
+.image_logo img {
+    width: 100%;
+}
+
+.heading h2 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.heading p {
+    color: white;
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    text-align: center;
+}
+
+.heading h2:hover{
+ text-shadow: rgb(252, 252, 252);
+}
+
+.heading p:hover{
+    text-decoration: solid;
+}
