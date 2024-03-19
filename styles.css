@@ -1,3 +1,6 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
 h3 {
     display: inline-block;
 }
@@ -6,6 +9,10 @@ h3 {
     position: relative;
     margin: 0 70px;
 
+}
+
+.main_header h3:hover {
+    text-decoration: overline;
 }
 
 
@@ -22,7 +29,109 @@ header {
     width: 100%;
 }
 
-a {
+.main_links a {
     margin: 10px;
     color: white;
+    text-decoration: none;
+}
+
+.main_links a:hover {
+    text-decoration: overline;
+}
+
+.head {
+    position: relative;
+    color:white;
+}
+
+.head h1 {
+    position: absolute;
+    top: 350px;
+    right: 330px;
+    font-size: 50px;
+}
+
+.head p {
+    position: absolute;
+    top: 430px;
+    right: 480px;
+    font-size: 30px;
+    
+}
+.head h1:hover {
+    background-color: white;
+    color: rgb(8, 8, 138);
+}
+.head p:hover {
+    background-color: white;
+    color: rgb(8, 8, 138);
+}
+
+.project h1 {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+}
+.pro h1 {
+    font-size: 60px;
+}
+
+.content {
+    text-align: center;
+}
+.images {
+    display: inline-block;
+    width: 30%;
+    background-color: rgb(8, 8, 138);
+    margin: 10px;
+    color: white;
+}
+
+.images a {
+    display: inline-block;
+    margin: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.images:hover {
+    text-decoration: overline;
+}
+
+.social_media {
+    background-color: black;
+    color: white;
+    padding: 80px;
+    
+}
+
+.social_media h1 {
+    font-size: 50px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social_links {
+    text-align: center;
+}
+
+.social_links a {
+    margin: 30px;
+    font-size: 25px;
+    color: white;
+}
+
+.social_links a:hover {
+    text-decoration: overline;
+}
+.copy_right {
+    background-color:rgb(8, 8, 138) ;
+    padding: 3px;
+    color: white;
+}
+
+.copy {
+    text-align: center;
 }
