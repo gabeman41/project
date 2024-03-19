@@ -86,16 +86,10 @@ header {
     background-color: rgb(8, 8, 138);
     margin: 10px;
     color: white;
+    padding-bottom: 15px;
 }
 
-.images a {
-    display: inline-block;
-    margin: 15px;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.images:hover {
+.images:hover{
     text-decoration: overline;
 }
 
