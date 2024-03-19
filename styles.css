@@ -74,6 +74,7 @@ header {
 }
 .pro h1 {
     font-size: 60px;
+    color: rgb(8, 8, 138);
 }
 
 .content {
@@ -121,10 +122,11 @@ header {
     margin: 30px;
     font-size: 25px;
     color: white;
+    text-decoration: none;
 }
 
 .social_links a:hover {
-    text-decoration: overline;
+    text-decoration: underline;
 }
 .copy_right {
     background-color:rgb(8, 8, 138) ;
