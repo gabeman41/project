@@ -113,7 +113,7 @@ header {
 }
 
 .social_links a {
-    margin: 30px;
+    margin: 20px;
     font-size: 25px;
     color: white;
     text-decoration: none;
@@ -130,4 +130,8 @@ header {
 
 .copy {
     text-align: center;
+}
+
+.social_links img {
+    max-width: 2%;
 }
